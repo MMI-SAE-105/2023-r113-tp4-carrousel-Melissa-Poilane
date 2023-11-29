@@ -25,6 +25,8 @@ img {
     overflow-x: scroll;
     /* animation de défilement */
     scroll-behavior: smooth;
+    /* permet de scroller par blocs */
+    scroll-snap-type: x mandatory;
 
 }
 
