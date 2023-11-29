@@ -21,6 +21,9 @@ img {
     justify-content: center;
     /* largeur du parent */
     width: 100%;
+    /* permet de scroller horizontalement */
+    overflow-x: scroll;
+
 }
 
 .carrousel_ecran {
