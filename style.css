@@ -80,6 +80,7 @@ justify-content list-style margin none padding
     justify-content: center;
     /* centre horizontalement les enfants */
     margin: 0;
+    margin-top: 10vh;
     /* enlève les marges par défaut */
     padding: 0;
     /* enlève les padding par défaut */
