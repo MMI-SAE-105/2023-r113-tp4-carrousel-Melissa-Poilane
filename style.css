@@ -4,9 +4,10 @@
 }
 
 img {
-    /* image responsive, largeur maxi */
+
+    display: block;
     max-width: 100%;
-    /* hauteur "auto" */
+    margin: 0 auto;
     height: auto;
 }
 
@@ -38,6 +39,7 @@ img {
     /* enlève les marges par défaut */
     margin: 0;
 }
+
 
 .carrousel {
     position: relative;
@@ -85,4 +87,15 @@ justify-content list-style margin none padding
     /* enlève les puces par défaut */
     gap: 1rem;
     /* espace entre les enfants */
+}
+
+.actif {
+    /* couleur du texte */
+    color: #fff;
+    /* couleur du fond */
+    background: #000;
+}
+
+body {
+    text-align: center;
 }
