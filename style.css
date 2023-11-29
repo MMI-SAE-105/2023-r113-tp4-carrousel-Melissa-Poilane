@@ -18,7 +18,6 @@ img {
 .carrousel_parent-ecrans {
     /* aligne horizontalement les enfants */
     display: flex;
-    justify-content: center;
     /* largeur du parent */
     width: 100%;
     /* permet de scroller horizontalement */
@@ -37,7 +36,6 @@ img {
     flex: none;
     /* aligne les enfants par blocs */
     scroll-snap-align: start;
-
 
 }
 
