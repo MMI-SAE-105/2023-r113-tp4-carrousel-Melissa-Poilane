@@ -12,8 +12,10 @@
 
 <body>
     <div class="carrousel" x-data="{}">
-        <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">
-            &lt;</button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt;</button>
+        <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"
+            @click="parent = $refs.parent; parent.scrollLeft -= parent.clientWidth; ">
+            &lt;</button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"
+            @click="parent = $refs.parent; parent.scrollLeft += parent.clientWidth; ">&gt;</button>
         <div class="carrousel_parent-ecrans" x-ref="parent">
             <div id="ecran-1" class="carrousel_ecran">
                 <figure>
