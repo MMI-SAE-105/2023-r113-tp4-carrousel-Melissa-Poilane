@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Sniglet&display=swap');
+
 * {
     /* change le box model */
     box-sizing: border-box;
@@ -126,4 +129,16 @@ body {
 a {
     text-decoration: none;
     color: #F1CCBA;
+}
+
+h1 {
+    font-family: ;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 160%; /* 16px */
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+    color: #F1CCBA;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
 }
