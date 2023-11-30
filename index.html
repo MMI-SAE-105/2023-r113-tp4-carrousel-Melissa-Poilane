@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,7 @@
 
 
 <body>
+    <h1>Carrousel</h1>
     <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
         <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"
             @click="parent = $refs.parent; parent.scrollLeft -= parent.clientWidth; ">
@@ -27,32 +28,32 @@
 
             <div id="ecran-1" class="carrousel_ecran">
                 <figure>
-                    <img src="https://picsum.photos/seed/1/500/300" alt="image ecran 1">
-                    <figcaption>Ecran 1</figcaption>
+                    <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFuZGF8ZW58MHwwfDB8fHww">
+                    <figcaption>Les Panda ! </figcaption>
                 </figure>
             </div>
             <div id="ecran-2" class="carrousel_ecran">
                 <figure>
-                    <img src="https://picsum.photos/seed/2/500/300" alt="image ecran 2">
-                    <figcaption>Ecran 2</figcaption>
+                    <img src="https://images.unsplash.com/photo-1542736637-74169a802172?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFuZGElMjByb3V4fGVufDB8MHwwfHx8MA%3D%3D" alt="image ecran 2">
+                    <figcaption>Les Panda Roux !</figcaption>
                 </figure>
             </div>
             <div id="ecran-3" class="carrousel_ecran">
                 <figure>
-                    <img src="https://picsum.photos/seed/3/500/300" alt="image ecran 3">
-                    <figcaption>Ecran 3</figcaption>
+                    <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amFwYW58ZW58MHwwfDB8fHww" alt="image ecran 3">
+                    <figcaption>Tokyo, Japon</figcaption>
                 </figure>
             </div>
             <div id="ecran-4" class="carrousel_ecran">
                 <figure>
-                    <img src="https://picsum.photos/seed/4/500/300" alt="image ecran 4">
-                    <figcaption>Ecran 4</figcaption>
+                    <img src="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9udCUyMGZ1aml8ZW58MHwwfDB8fHww" alt="image ecran 4">
+                    <figcaption>Mont Fuji</figcaption>
                 </figure>
             </div>
             <div id="ecran-5" class="carrousel_ecran">
                 <figure>
-                    <img src="https://picsum.photos/seed/5/500/300" alt="image ecran 5">
-                    <figcaption>Ecran 5</figcaption>
+                    <img src="https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFtYm91fGVufDB8MHwwfHx8MA%3D%3D" alt="image ecran 5">
+                    <figcaption>Une forêt de bambou</figcaption>
                 </figure>
             </div>
         </div>
