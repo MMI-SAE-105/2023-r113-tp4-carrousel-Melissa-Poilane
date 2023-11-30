@@ -82,7 +82,7 @@ justify-content list-style margin none padding
     /* centre horizontalement les enfants */
     margin: 0;
     
-    margin-top: 10vh;
+    margin-top: 7vh;
     /* enlève les marges par défaut */
     padding: 0;
     /* enlève les padding par défaut */
@@ -94,11 +94,14 @@ justify-content list-style margin none padding
     
 }
 
-.btn>.actif {
+.actif{
     /* couleur du texte */
     color: #fff;
     /* couleur du fond */
-    background-color: #1C1C1C;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 13px 20px ;
+    P
 }
 
 body {
@@ -109,9 +112,9 @@ body {
     background-color: #1C1C1C;
     border: 1px solid #fff;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-decoration: none;
-    margin: 20px;
+    margin: 1vh;
     cursor: pointer;
     font-size: 10px;
     font-weight: 600;
